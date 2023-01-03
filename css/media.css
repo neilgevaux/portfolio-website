@@ -13,8 +13,9 @@
 @media screen and (max-width: 768px) {
   topnav,.topnav.responsive {
     position: relative;
-    background-color: #5945B2;
-  }
+    background: -webkit-linear-gradient(to right, #0F2027, #2C5364);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0F2027, #2C5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -29,7 +30,9 @@
     color: #ffffff;
   }
   .topnav.active {
-    background-color: #5945B2;
+    background: -webkit-linear-gradient(to right, #0F2027, #2C5364);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0F2027, #2C5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   }
 /* Main content */
 	.content{

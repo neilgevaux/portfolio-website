@@ -15,6 +15,7 @@
       Neil Gevaux - Web Development, Design and Content Creation. Based in York,
       UK
     </title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <!-- Custom Fonts -->
     <link
       href="vendor/font-awesome/css/font-awesome.min.css"
@@ -37,7 +38,7 @@
     <link href="css/normalize.css" rel="stylesheet" /> --> -->
 
     <!-- favicons -->
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32 64x64" href="img/icons/favicon.ico" />
     <link
       rel="icon"
@@ -118,11 +119,11 @@
     />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="/favicon-144.png" />
-    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-config" content="/browserconfig.xml" /> -->
     <!-- favicons -->
   </head>
   <body>
-    <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark gradient">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -152,25 +153,14 @@
             <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3 light-text">Neil Gevaux</h1>
-            <h2 class="display-7 fw-bold lh-1 mb-3 light-text">Web Application Developer</21></h2>
-            <p class="lead light-text">
-              My name's Neil Gevaux. I work at the
-              <a
-                href="http://www.york.ac.uk"
-                alt="The University of York"
-                target="_blank"
-                rel="noopener"
-                >University of York</a
-              >
-              as a Web Application Developer for the Faculty Dev Team in IT
-              Services.
-            </p>
+            <h1 class="display-5 fw-bold lh-1 mb-4 light-text">Neil Gevaux</h1>
+            <h2 class="display-7 fw-bold lh-1 mb-4 light-text">Web Application Developer</h2>
+            <h2 class="display-7 fw-bold lh-1 mb-4 light-text">York, UK</h2>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Projects</button>
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 mt-2">Get in touch</button>
             </div>
   
-            <div class="share-buttons">
+            <div class="social-buttons mt-5">
               <!-- Social media buttons class -->
               <a
                 href="https://www.linkedin.com/in/neilgevaux/"
@@ -209,49 +199,75 @@
   
     <div class="container pt-5">
       <span class="anchor" id="about"></span>
-      <h2 class="display-7 fw-bold lh-1 mb-3 mt-3">About me</h2>
-      <p>
-        I'm a full-stack web developer who loves building great user experiences. I specialise in Ruby (Rails, Sinatra),
-        Javascript (Vue), and SQL.
-      </p>
 
-      <p>
-        I've built a number of websites for clients. Some of my projects include archaeological work like
-        <a
-          href="http://www.starcarr.com"
-          alt="Star Carr, a Mesolithic site in North Yorkshire"
-          target="_blank"
-          rel="noopener"
-          >Star Carr</a
-        >
-        and and
-        <a
-          href="https://www.vikingcraftnetwork.org/"
-          alt="The Viking Craft Network"
-          target="_blank"
-          rel="noopener"
-          >The Viking Craft Network</a
-        >.
-      </p>
-      <p>
-        You can see examples of my work in the <a href="#projects">Projects</a> section.</p>
-      <p>
-        I build websites and applications for projects and businesses. I love
-        front-end web development and UX. Have a look in the
-        <a href="#projects">Projects</a> section to check out some of my work.
-      </p>
-      <p>
-        I've created this site to showcase some of my professional and
-        personal interests. I hope you enjoy it! Feel free to get in touch by
-        email or social media :)
-      </p>
+        <h2 class="display-7 fw-bold lh-1 mb-3 mt-3">About me</h2>
+        <p class="lead pb-3">
+          My name's Neil Gevaux. I work at the
+          <a
+            href="http://www.york.ac.uk"
+            alt="The University of York"
+            target="_blank"
+            rel="noopener"
+            >University of York</a
+          >
+          as a Web Application Developer for the Faculty Dev Team in IT
+          Services.
+        </p>
+
+        <div class="row mt-5">
+          <div class="col-7">
+            <p>
+              I'm a full-stack web developer who loves building great user experiences. I specialise in Ruby (Rails, Sinatra),
+              Javascript (Vue), and SQL.
+            </p>
+      
+            <p>
+              I've built a number of websites for clients. Some of my projects include archaeological work like
+              <a
+                href="http://www.starcarr.com"
+                alt="Star Carr, a Mesolithic site in North Yorkshire"
+                target="_blank"
+                rel="noopener"
+                >Star Carr</a
+              >
+              and and
+              <a
+                href="https://www.vikingcraftnetwork.org/"
+                alt="The Viking Craft Network"
+                target="_blank"
+                rel="noopener"
+                >The Viking Craft Network</a
+              >.
+            </p>
+            <p>
+              You can see examples of my work in the <a href="#projects">Projects</a> section.</p>
+            <p>
+              I build websites and applications for projects and businesses. I love
+              front-end web development and UX. Have a look in the
+              <a href="#projects">Projects</a> section to check out some of my work.
+            </p>
+            <p>
+              I've created this site to showcase some of my professional and
+              personal interests. I hope you enjoy it! Feel free to get in touch by
+              email or social media :)
+            </p>
+    
+          </div>
+          <div class="col-5">
+            <img src="img/profile-bw.webp" class="img-round ps-5" alt="Photo of Neil Gevaux">
+          </div>
+        </div>
+
+  
+
+
     </div>
 
 
-    <div class="container">
+    <div class="container mt-5">
       <span class="anchor" id="projects"></span>
       <h2 class="display-7 fw-bold lh-1 mb-3">Projects</h2>
-      <h3 class="display-9 fw-bold lh-1 mb-3">Websites</h3>
+      <h3 class="display-9 fw-bold lh-1 mb-3 mt-5">Websites</h3>
 
       <div class="row row-cols-3">
         <div class="col d-flex align-items-stretch mb-5">
@@ -277,7 +293,7 @@
               role="button"
               target="_blank"
               rel="noopener"
-              >View site &raquo;</a
+              >View site</a
             >
             </div>
           </div>
@@ -305,7 +321,7 @@
               role="button"
               target="_blank"
               rel="noopener"
-              >View site &raquo;</a
+              >View site</a
             >
             </div>
           </div>
@@ -333,7 +349,7 @@
               role="button"
               target="_blank"
               rel="noopener"
-              >View site &raquo;</a
+              >View site</a
             >
             </div>
           </div>
@@ -361,7 +377,7 @@
               role="button"
               target="_blank"
               rel="noopener"
-              >View site &raquo;</a
+              >View site</a
             >
             </div>
           </div>
@@ -389,7 +405,7 @@
               role="button"
               target="_blank"
               rel="noopener"
-              >View site &raquo;</a
+              >View site</a
             >
             </div>
           </div>
@@ -417,7 +433,7 @@
               role="button"
               target="_blank"
               rel="noopener"
-              >View site &raquo;</a
+              >View site</a
             >
             </div>
           </div>
@@ -445,7 +461,7 @@
             role="button"
             target="_blank"
             rel="noopener"
-            >View site &raquo;</a
+            >View site</a
           >
           </div>
         </div>
@@ -460,23 +476,43 @@
         Drop me a line if you share any interests, or if you think you have a
         project you want me to work on.
       </p>
-
-      <form name="contact" method="POST" data-netlify="true">
-        <div class="mb-3">
-          <label for="name" class="form-label">Your name</label>
-          <input type="text" class="form-control" id="name" aria-describedby="name">
+      <div class="card p-3 border-0 shadow" style="width: 36rem;">
+        <form name="contact" netlify>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="email" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your message</label>
+            <textarea class="form-control" id="textArea" rows="3"></textarea>        </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">All content &copy; Neil Gevaux
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+  </span>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="email" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Your message</label>
-          <textarea class="form-control" id="textArea" rows="3"></textarea>        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
@@ -484,19 +520,11 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-
-
-
-
-  <!-- Wrapper div -->
-  <div id="wrapper">
-
-
+  <!-- <script src="js/main.js"></script> -->
 
 
         <!-- Contact form -->
-        <div class="form-wrapper">
+        <!-- <div class="form-wrapper">
           <div id="form-container">
             <form name="contact" method="POST" data-netlify="true">
               <p>
@@ -523,7 +551,7 @@
               </p>
             </form>
           </div>
-        </div>
+        </div> -->
 
         <div class="contact-links">
           <ul>
@@ -563,25 +591,5 @@
       </div>
     </footer>
   </div>
-  <!-- End wrapper div -->
-  <!-- Scripts -->
-  <!-- jQuery latest -->
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-    crossorigin="anonymous"
-  ></script>
-  <script src="js/main.js"></script>
-  <script type="text/javascript"></script>
-  <script>
-    // split your email into two parts and remove the @ symbol
-    var first = "neilgevaux";
-    var last = "gmail.com";
-  </script>
-  <script>
-    //Change hamburger menu to an "x"
-    function xBar(x) {
-      x.classList.toggle("change");
-    }
-  </script>
+
 </html>

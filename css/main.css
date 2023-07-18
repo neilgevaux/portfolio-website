@@ -52,3 +52,8 @@ a:hover {
   position: relative;
   bottom: 1px;
 }
+
+.social-buttons-footer {
+  color: hsl(209, 61%, 25%);
+  font-size: 1.5rem;
+}
